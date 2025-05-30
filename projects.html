@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Projects</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="projects-container">
+        <aside class="project-list">
+            <h2>Project List</h2>
+            <div id="project-list">
+                <div class="scrollable-list">
+                    <ul>
+                        <li onclick="loadProject('rag-agent')">RAG Agent Tool</li>
+                        <li onclick="loadProject('Drone-sim')">Drone Delivery Simulation</li>
+                        <li onclick="loadProject('Ice-Melts')">Ice Melts</li>
+                    </ul>
+
+                    <!-- CSCI 4611 Section -->
+                    <details>
+                        <summary><strong>CSCI 4611 - Interactive Graphics</strong></summary>
+                        <ul>
+                            <li onclick="loadProject('Hole')">Hole In Ground Game </li>
+                            <li onclick="loadProject('ants-dance')">So You Think Ants Can Dance</li>
+                            <li onclick="loadProject('Purple Crayon')">Purple Crayon</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </aside>
+
+        <section class="project-detail" id="project-detail">
+            <h2>Select a project to view details</h2>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2025 Parker Elftmann. All rights reserved.</p>
+</footer>
+
+</html>
