@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('/portfolio-site-v1/assets/images/boots.jpg');
+    background-image: url('assets/images/boots.jpg');
     background-size: cover;
     background-position: center 5%;
     color: white;
