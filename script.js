@@ -80,9 +80,9 @@ const projects = {
 
         <strong>Retrospective:</strong><br>
         Ice Melts was a creative challenge in balancing player transformation mechanics with platforming flow. The project helped us explore elemental gameplay design and modular character behavior in Unity.
+        Play here, "https://elftmann1.itch.io/ice-melts"
         `,
         github: "https://github.com/Darianlime/IceMelts",
-        live: "https://elftmann1.itch.io/ice-melts"
     },
     "Who-Said-It": {
         title: "Who Said It?",
